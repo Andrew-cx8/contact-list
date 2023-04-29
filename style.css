@@ -1,0 +1,102 @@
+html{
+    background-color: blueviolet;
+}
+
+li{
+    padding: 10%;
+}
+
+input{
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #e9d4ff;
+    border-style: none;
+    
+}
+
+#btn_contactos {
+    background-color: #51de9c;
+    box-shadow: 0px 10px 14px -7px rgba(88, 255, 186, 0.67);
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    padding: 13px 32px;
+    font-size: 20px;
+    border-style: none;
+}
+
+#btn_contactos:hover {
+    color: rgb(0, 0, 0);
+    background-color: #99ffcf;
+    box-shadow: 0px 10px 14px -7px rgba(183, 255, 225, 0.67);
+}
+
+#btn_contactos:active {
+    position: relative;
+    top: 1px;
+}
+
+
+#btnEliminar {
+    background-color: #ff5454;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 0px 9px 10px -3px rgba(255, 88, 88, 0.518);
+    cursor: pointer;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: black;
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+
+.nombre{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.formulario{
+    background-color: rgba(0, 0, 0, 0.558);
+    display: grid;
+    grid-template-columns: min-content;
+    color: aliceblue;
+    width: fit-content;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.contenedor{
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    color: rgb(255, 255, 255);
+    width:max-content;
+    margin: auto;
+    padding-top: 50px;
+    border-radius: 10px;
+
+}
+
+ul{
+    display: grid;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.558);
+    border-radius: 10px;
+    
+
+}
+
+form{
+    display: grid;
+    grid-template-columns: repeat();
+}
