@@ -14,6 +14,8 @@ function agregarContacto() {
     tel: telefono
   };
 
+  console.log(informacion); //Imprime por consola la información guardada de los contactos
+
   // Agregamos el objeto informacion al array de arrayContactos
   arrayContactos.push(informacion);
 
